@@ -31,6 +31,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := gemini_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/gemini
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/gemini/BoardConfigVendor.mk
