@@ -52,7 +52,9 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    init.msm.usb.configfs.rc \
+    init.qcom.usb.sh
 
 # Fingerprint
 PRODUCT_PACKAGES += \
